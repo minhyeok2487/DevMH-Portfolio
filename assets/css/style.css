@@ -421,24 +421,46 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+
+
 .skills .container {
   height: 100vh;
 }
 
+.skills .progress-wrap {
+  height: 150px;
+  display: flex;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  flex-direction: row;
+  line-height : 1.5em;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.skills .progress-icon img {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 80%;
+  width: auto;
+}
+
 .skills .progress {
-  margin-top: 20px;
   height: auto;
   display: block;
   background: none;
   border-radius: 0;
+  margin-top: 10px;
 }
+
 
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
   text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 800;
   font-family: "Poppins", sans-serif;
   color: black;
 }
